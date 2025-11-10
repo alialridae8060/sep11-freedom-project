@@ -6,12 +6,35 @@
 #### <ul>
 #### <li>What tool did I decide on?; I decided to work the mild,one flaming emoji level tool Less.js.</li>
 #### <li>Why did I choose Less.javascript ?; I choose Less.js to work with as I had a difficult time back in Sep 10 and I ended the year of with a 67% as my avergae in Sep 10 so I choose this tool as its an easy tool from what I saw on the list so I decided I would choose that tool.</li>
-#### <li> How I tinkered with Less.javascript ?; whiel I haven't tinkered with it much I tinker swsith it in my IDE in a file in the tool folder of the sep11-freedom-project folder of my projects folder in my entire IDE that for this year is named javascript or js.
+#### <li> How I tinkered with Less.javascript ?; While I haven't tinkered with it much I tinker with it in my IDE in a file in the tool folder of the sep11-freedom-project folder of my projects folder in my entire IDE that for this year is named javascript or js.
 #### </ul>
 
 ### Link to the website of Less.js where it explains the code needed so it can be used in web development:https://lesscss.org/ .
 
 ### Here are my code snippets and these shall explain my current skills,edp and professionalism with Less.js by themselves withput me needing to write anything;
+``` script.js
+@base: #f04615;
+@width: 0.75;
+
+.class {
+  width: percentage(@width); 
+  color: saturate(@base, 8%);
+  background-color: spin(lighten(@base, 30%), 10);
+}
+
+#bundle() {
+  .button {
+    display: block;
+    border: 2px solid green ;
+    background-color: blue;
+    &:hover {
+      background-color: red;
+    }
+  }
+  .tab { ... }
+  .citation { ... }
+}
+```
 
 
 ### So this is the end of my first blog for my sep11 freedom-project,we shall meet again my faithful readers once the need to make another blog apperas so goodbye and I hope you all read my next blog and can understand me better and my future skills,edp and professionalism with Less.js will improve so you can understand them better. Goodbye .
