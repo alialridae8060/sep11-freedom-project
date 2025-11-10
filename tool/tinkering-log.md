@@ -5,7 +5,7 @@
   width: percentage(@width);
   color: saturate(@base, 8%);
   background-color: spin(lighten(@base, 30%), 10);
-}
+} //Functions
 
 #bundle() {
   .button {
@@ -18,4 +18,6 @@
   }
   .tab { ... }
   .citation { ... }
-}
+} //Namespaces and Accessors
+
+
