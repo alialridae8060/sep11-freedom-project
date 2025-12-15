@@ -152,12 +152,6 @@ width: calc(50% + (@var - 20px));  // result is calc(50% + (25vh - 20px))
   <li>If this Blog gets less than a 6.5/10 to edit it with my new konwledge on Less.js with the 1 hour I did on the same day.</li>
 </ul>
 
-
-
-
-
-
-
+### So this is the end of my second fp blog I hope you all enjou=yed reading it,stay tuned for any edits and be ready for blog 3.
 [Previous](entry01.md) | [Next](entry03.md)
-
 [Home](../README.md)
