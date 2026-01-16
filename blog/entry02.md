@@ -138,6 +138,17 @@ width: calc(50% + (@var - 20px));  // result is calc(50% + (25vh - 20px))
 <img width="1212" height="709" alt="Screenshot 2025-12-15 11 54 50 AM" src="https://github.com/user-attachments/assets/bb21de83-e270-4b11-b0d8-ad40719389a7" />
 <img width="1167" height="709" alt="Screenshot 2025-12-15 11 55 18 AM" src="https://github.com/user-attachments/assets/4f04859f-9d3a-4dc3-ad4f-3baf283fff46" />
 <img width="988" height="344" alt="Screenshot 2025-12-15 11 55 53 AM" src="https://github.com/user-attachments/assets/c5713c99-ecd7-48de-8336-d5bc36ae9dc3" />
+
+### Next us is iamges of my code in the http-sever;
+<img width="1363" height="583" alt="Screenshot 2026-01-15 9 45 50 PM" src="https://github.com/user-attachments/assets/edd1b8fc-66b2-4ebd-bb2d-bb9f9da4147e" />
+<img width="1363" height="588" alt="Screenshot 2026-01-15 9 46 54 PM" src="https://github.com/user-attachments/assets/88f4526f-b0df-4f1d-b325-5137cff4cdd0" />
+<img width="1363" height="588" alt="Screenshot 2026-01-15 9 47 19 PM" src="https://github.com/user-attachments/assets/cad5c23f-205c-47bc-9ed3-708f902bf2f2" />
+<img width="1363" height="588" alt="Screenshot 2026-01-15 9 48 27 PM" src="https://github.com/user-attachments/assets/265be0e0-5a3f-4f5f-8b8f-db77200d46f8" />
+
+### Finally is what my code looks like in JSBIn;
+<img width="1363" height="588" alt="Screenshot 2026-01-15 9 49 31 PM" src="https://github.com/user-attachments/assets/f94892c1-44d2-41c1-a334-dce27642e0f9" />
+
+
 ### Next up is what I recorded in my learning logs post 11/10/2025;
 <ul>
   <li> 11/17/2025
@@ -146,10 +157,10 @@ width: calc(50% + (@var - 20px));  // result is calc(50% + (25vh - 20px))
  So now is the time to resume the learning log.So after learning about Nesting now it is time to learn about the rules and bubbling of nesting.So nesting has rules @media and/or @supports that can be nested in the same way as selectors.Arithmetical operations +, -, *, / can operate on any number, color or variable. If it is possible, mathematical operations take units into account and convert numbers before adding, subtracting or comparing them. The result has leftmost explicitly stated unit type. If the conversion is impossible or not meaningful, units are ignored.Multiplication and division do not convert numbers. It would not be meaningful in most cases - a length multiplied by a length gives an area and css does not support specifying areas.However, you may find Less's Color Functions more useful.You can change Math setting, if you want to make it always work, but not recommended.For CSS compatibility, calc() does not evaluate math expressions, but will evaluate variables and math in nested functions.</li>
 </ul>
 
-### Now are my goal for winter break both related to to the freedom project.
+### Now are my goals for winter break that are both related to to the freedom project.
 <ul>
   <li>Get one hour of progress in my learning and tinkering logs form my tool Less.js which you will see in Blog 3.</li>
-  <li>If this Blog gets less than a 6.5/10 to edit it with my new konwledge on Less.js with the 1 hour I did on the same day.</li>
+  <li>And if my second blog gets less than a 6.5/10 then I will edit it with my new konwledge on Less.js with the 1 hour I did from the learning log day.</li>
 </ul>
 
 ### So this is the end of my second fp blog I hope you all enjou=yed reading it,stay tuned for any edits and be ready for blog 3.
