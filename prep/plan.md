@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool:Less.js 
+## Product:Buisness Decison 
 
 ---
 
@@ -9,13 +9,16 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Task 1;Finish learning my tool. (Deadline : 2/24/2026)
+- [ ] Task 2;Work on my MVP from Feb 25th till Apr 13th on Mondays by myself and Wednesdays either in tutoring or in peer tutoring(LOL). (Deadline : 4/13/2026)
+- [ ] Task 3;Work on my MVP presentation from Apr 6th to Apr 13th. (Deadline : 4/13/2026)
+- [ ] Task 4;Work on any and all writeups,blog enteries and portfolios from Feb 14th to Apr 13th. (Deadline : 4/13/2026)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Task 1; After presenting my MVP I begin working on the beyond code from Apr 14th to May 13th. (Deadline : 5/13/2026)
+- [ ] Task 2; Work on my beyond MVP presentation from May 6th to May 13th. (Deadline : 5/13/2026)
+- [ ] Task 3; Finish the reamining blogs and portfolios from May 14th to June 16th. (Deadline : 6/16/2026).
 
 
 <!-- EXAMPLE
