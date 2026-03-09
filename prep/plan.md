@@ -1,7 +1,7 @@
 # Plan
 
-## Tool:Less.js 
-## Product:Buisness Decison 
+## Tool:Less.js. 
+## Product:Buisness Decison Game.
 
 ---
 
@@ -9,16 +9,29 @@
 
 #### MVP
 
-- [ ] Task 1;Finish learning my tool. (Deadline : 2/24/2026)
+- [X] Task 1;Finish learning my tool(Less.js). (Deadline : 2/24/2026)
 - [ ] Task 2;Work on my MVP from Feb 25th till Apr 13th on Mondays by myself and Wednesdays either in tutoring or in peer tutoring(LOL). (Deadline : 4/13/2026)
-- [ ] Task 3;Work on my MVP presentation from Apr 6th to Apr 13th. (Deadline : 4/13/2026)
-- [ ] Task 4;Work on any and all writeups,blog enteries and portfolios from Feb 14th to Apr 13th. (Deadline : 4/13/2026)
+### Html and Css of the project;
+<ul>
+  <li>Type in all the in game information needed for the game(what is supposed to be written in the directions,multiple choice,notifications etc)(Deadline 4/13/2026).</li>
+  <li>Program the colors for the website(i.e what is the color for the background,what is the color for the multiple choice,what color for the notifications and what color is needed for the directions)(Deadline : 4/13/2026)</li>
+</ul>
+
+### Javascript for the project;
+<ul>
+<li>Program the proper js(basics/arrays/functions/conditionals/loops/DOM) into the game for a proper algorithm.</li>
+</ul>
+
+### P5.js and tool for the project
+
+      
+- [ ] Task 3;Test out my MVP a week before Apr 13th with other sep studenst for soem final clean up.(Deadline : 4/13/2026)
+- [ ] Task 4;Work on my MVP presentation from Apr 6th to Apr 13th. (Deadline : 4/13/2026)
 
 #### Beyond MVP
 
-- [ ] Task 1; After presenting my MVP I begin working on the beyond code from Apr 14th to May 13th. (Deadline : 5/13/2026)
+- [ ] Task 1; After presenting my MVP I begin working on the beyond code for beyon MVP from Apr 14th to May 13th. (Deadline : 5/13/2026)
 - [ ] Task 2; Work on my beyond MVP presentation from May 6th to May 13th. (Deadline : 5/13/2026)
-- [ ] Task 3; Finish the reamining blogs and portfolios from May 14th to June 16th. (Deadline : 6/16/2026).
 
 
 <!-- EXAMPLE
