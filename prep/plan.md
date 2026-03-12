@@ -20,17 +20,34 @@
 ### Javascript for the project;
 <ul>
 <li>Program the proper js(basics/arrays/functions/conditionals/loops/DOM) into the game for a proper algorithm.</li>
+<li>Make sure all the javascript works so that the game works when it comes to choices,read mes,notfications and directions.</li>
 </ul>
 
-### P5.js and tool for the project
-
+### p5js and tool for the project;
+<ul>
+  <li>Add enough p5js and incoperate my tool for the function of the website.</li>
+</ul>
       
-- [ ] Task 3;Test out my MVP a week before Apr 13th with other sep studenst for soem final clean up.(Deadline : 4/13/2026)
+- [ ] Task 3;Test out my MVP a week before Apr 13th with other sep studenst for some final clean up.(Deadline : 4/13/2026)
 - [ ] Task 4;Work on my MVP presentation from Apr 6th to Apr 13th. (Deadline : 4/13/2026)
 
 #### Beyond MVP
 
 - [ ] Task 1; After presenting my MVP I begin working on the beyond code for beyon MVP from Apr 14th to May 13th. (Deadline : 5/13/2026)
+  ### Html and CSS for beyond MVP;
+      <ul>
+      <li>Tinker with the html and css to make the app more beautiful.</li>
+      </ul>
+  ### JS for beyond MVP;
+<ul>
+  <li>Tniker the JS for better app function. </li>
+</ul>
+
+  ### p5js and tool for the project;
+  <ul>
+    <li>Tinker both for better webiste performance.</li>
+  </ul>
+
 - [ ] Task 2; Work on my beyond MVP presentation from May 6th to May 13th. (Deadline : 5/13/2026)
 
 
