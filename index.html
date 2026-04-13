@@ -24,7 +24,31 @@
         <!-- <script src="script.js"></script> -->
         <script>
             // JS
-            
+            function setup(){
+                createCanvas(800,600)
+                textAlign(CENTER)
+            }
+
+            function draw(){
+                background(130)
+                fill(0,255,0)
+                rect(100,100,300,300)
+                text()
+            }
+
+            function askQuestion(question,result){
+                let decision = prompt(question);
+
+                if (result === a){
+                    alert("risky choice");
+                    return a;
+                } else {
+                    alert("good choice");
+                    return b;
+                }
+
+            }
+        askQuestion("Will you a=start a buisness or b=work for someone else?","risky choice","good choice");
             
         </script>
     </body>
