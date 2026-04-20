@@ -10,7 +10,7 @@
 #### MVP
 
 - [X] Task 1;Finish learning my tool(Less.js). (Deadline : 2/24/2026)
-- [ ] Task 2;Work on my MVP from Feb 25th till Apr 13th on Mondays by myself and Wednesdays either in tutoring or in peer tutoring(LOL). (Deadline : 4/13/2026)
+- [X] Task 2;Work on my MVP from Feb 25th till Apr 13th on Mondays by myself and Wednesdays either in tutoring or in peer tutoring(LOL). (Deadline : 4/13/2026)
 ### Html and Css of the project;
 <ul>
   <li>Type in all the in game information needed for the game(what is supposed to be written in the directions,multiple choice,notifications etc)(Deadline 4/13/2026).</li>
@@ -28,12 +28,12 @@
   <li>Add enough p5js and incoperate my tool for the function of the website.</li>
 </ul>
       
-- [ ] Task 3;Test out my MVP a week before Apr 13th with other sep studenst for some final clean up.(Deadline : 4/13/2026)
-- [ ] Task 4;Work on my MVP presentation from Apr 6th to Apr 13th. (Deadline : 4/13/2026)
+- [X] Task 3;Test out my MVP a week before Apr 13th with other sep studenst for some final clean up.(Deadline : 4/13/2026)
+- [X] Task 4;Work on my MVP presentation from Apr 6th to Apr 13th. (Deadline : 4/13/2026)
 
 #### Beyond MVP
 
-- [ ] Task 1; After presenting my MVP I begin working on the beyond code for beyon MVP from Apr 14th to May 13th. (Deadline : 5/13/2026)
+- [X] Task 1; After presenting my MVP I begin working on the beyond code for beyon MVP from Apr 14th to May 13th. (Deadline : 5/13/2026)
   ### Html and CSS for beyond MVP;
       <ul>
       <li>Tinker with the html and css to make the app more beautiful.</li>
