@@ -48,6 +48,14 @@
     <li>Tinker both for better webiste performance.</li>
   </ul>
 
+  ### Beyond MVP suggestions;
+  <ul>
+    <li>Alvin F; Specifying what button to press after choosing a or b.</li>
+    <li>Benson J; Include the button somewhere to improve performance.</li>
+    <li>Farzona K; Give the project and ending.</li>
+    <li>Darren L; Fix the typos found in the project.</li>
+  </ul>
+
 - [ ] Task 2; Work on my beyond MVP presentation from May 6th to May 13th. (Deadline : 5/13/2026)
 
 
