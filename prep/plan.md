@@ -1,7 +1,7 @@
 # Plan
 
-## Tool: Less.js
-## Product: 
+## Tool:Less.js.
+## Product:Buisness Decison Game.
 
 ---
 
@@ -9,13 +9,54 @@
 
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [X] Task 1;Finish learning my tool(Less.js). (Deadline : 2/24/2026)
+- [X] Task 2;Work on my MVP from Feb 25th till Apr 13th on Mondays by myself and Wednesdays either in tutoring or in peer tutoring(LOL). (Deadline : 4/13/2026)
+### Html and Css of the project;
+<ul>
+  <li>Type in all the in game information needed for the game(what is supposed to be written in the directions,multiple choice,notifications etc)(Deadline 4/13/2026).</li>
+  <li>Program the colors for the website(i.e what is the color for the background,what is the color for the multiple choice,what color for the notifications and what color is needed for the directions)(Deadline : 4/13/2026)</li>
+</ul>
+
+### Javascript for the project;
+<ul>
+<li>Program the proper js(basics/arrays/functions/conditionals/loops/DOM) into the game for a proper algorithm.</li>
+<li>Make sure all the javascript works so that the game works when it comes to choices,read mes,notfications and directions.</li>
+</ul>
+
+### p5js and tool for the project;
+<ul>
+  <li>Add enough p5js and incoperate my tool for the function of the website.</li>
+</ul>
+
+- [X] Task 3;Test out my MVP a week before Apr 13th with other sep studenst for some final clean up.(Deadline : 4/13/2026)
+- [X] Task 4;Work on my MVP presentation from Apr 6th to Apr 13th. (Deadline : 4/13/2026)
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [X] Task 1; After presenting my MVP I begin working on the beyond code for beyon MVP from Apr 14th to May 13th. (Deadline : 5/13/2026)
+  ### Html and CSS for beyond MVP;
+      <ul>
+      <li>Tinker with the html and css to make the app more beautiful.</li>
+      </ul>
+  ### JS for beyond MVP;
+<ul>
+  <li>Tniker the JS for better app function. </li>
+</ul>
+
+  ### p5js and tool for the project;
+  <ul>
+    <li>Tinker both for better webiste performance.</li>
+  </ul>
+
+  ### Beyond MVP suggestions;
+  <ul>
+    <li>Alvin F; Specifying what button to press after choosing a or b.</li>
+    <li>Benson J; Include the button somewhere to improve performance.</li>
+    <li>Farzona K; Give the project and ending.</li>
+    <li>Darren L; Fix the typos found in the project.</li>
+  </ul>
+
+- [ ] Task 2; Work on my beyond MVP presentation from May 6th to May 13th. (Deadline : 5/13/2026)
 
 
 <!-- EXAMPLE
