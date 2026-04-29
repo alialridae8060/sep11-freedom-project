@@ -37,6 +37,19 @@
                 text()
             }
 
+            function askQuestion(question,result){
+                let decision = prompt(question);
+
+                if (result === a){
+                    alert("risky choice");
+                    return a;
+                } else {
+                    alert("good choice");
+                    return b;
+                }
+
+            }
+        askQuestion("Will you a=start a buisness or b=work for someone else?","risky choice","good choice");
 
         </script>
     </body>
