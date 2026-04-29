@@ -234,7 +234,7 @@ width: calc(50% + (@var - 20px));  // result is calc(50% + (25vh - 20px))
 //Importing
 @import "library"; // library.less
 @import "typo.css";
-// 3/9/2026
+// 3/9/2026;
 
 
 
