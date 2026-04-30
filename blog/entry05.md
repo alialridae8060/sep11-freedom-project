@@ -8,7 +8,7 @@
 
 ### As for my freedom project MVP I didn´t exactly finish it but I putted down a question for it in order to give it some functionality.Here are the links to my code and the project preview;
 [Project Code](https://github.com/alialridae8060/sep11-freedom-project/blob/main/index.html)
-[Project Preview](https://github.com/alialridae8060/sep11-freedom-project)
+[Project Preview](https://psychic-umbrella-4jwg66v6qwwqcj7rj-8080.app.github.dev/index.html)
 
 ### So right now I will continue to work on my freedom project in order to give it more functionality and to have it ready for presentation.That is all see you in the next blog.
 
