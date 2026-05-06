@@ -1,12 +1,16 @@
-@mainColor : green;
-@bgColor : white;
-@textColor : black;
+@mainColor: green;
+@bgColor: white;
+@textColor: black;
+
 body {
   background-color: @bgColor;
   color: @textColor;
   font-family: "Times New Roman", Times, serif;
 }
-h1 {    color: @mainColor;}
+
+h1 {
+  color: @mainColor;
+}
 
 button {
   background-color: @mainColor;
@@ -15,9 +19,12 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
 
-  &:hover {        background-color: darken(@mainColor, 10%);
+  &:hover {
+    background-color: darken(@mainColor, 10%);
   }
 }
 
-status {    margin-top: 20px;    font-weight: bold;
+#status {
+  margin-top: 20px;
+  font-weight: bold;
 }
