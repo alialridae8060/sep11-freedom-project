@@ -1,4 +1,23 @@
-h1 {
-    color: (255,0,0) ;
-    margin-bottom: 100px;
+@mainColor : green;
+@bgColor : white;
+@textColor : black;
+body {
+  background-color: @bgColor;
+  color: @textColor;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {    color: @mainColor;}
+
+button {
+  background-color: @mainColor;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  &:hover {        background-color: darken(@mainColor, 10%);
   }
+}
+
+status {    margin-top: 20px;    font-weight: bold;
+}
