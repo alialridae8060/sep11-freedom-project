@@ -6,7 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <link rel="stylesheet/less" type="text/css" href="style.less" />
+        <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+
         <style>
             /* CSS */
 
@@ -14,46 +17,80 @@
 
         <title>Business decision game.</title>
     </head>
-    <body>
+        <body>
         <!-- HTML -->
         <h1>Business decsion game.</h1>
-        <p>Welcome to my business decsion game.In this game you either have the option to start a buisness now or get a job and start a business late and you are in charge of either keeping the buisness alive or making sure your money doesn't run out.How it's done is that you are given decisions to make and your choices affect the outcome of the business/survivability of your wealth.For every good descison you make more money and for every bad decision you make less money.Now that you know this good luck young entrepreneur and may luck be on your side.</p>
-        <p>Press on this button to continue and begin your business empire.</p>
-        <button type="button">Click To Play!</button>
+        <p id="intro">Welcome to my business decsion game.In this game you either have the option to start a buisness now or get a job and start a business late and you are in charge of either keeping the buisness alive or making sure your money doesn't run out.How it's done is that you are given decisions to make and your choices affect the outcome of the business/survivability of your wealth.For every good descison you make more money and for every bad decision you make less money.Now that you know this good luck young entrepreneur and may luck be on your side.
+        Press on this button to continue and begin your business empire.</p>
+        <button id="startButton" class="btn btn-primary">Click To Play!</button>
+        <h3 id="status" class="mt-4"></h3>
+
+
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- <script src="script.js"></script> -->
         <script>
             // JS
-            function setup(){
-                createCanvas(800,600)
-                textAlign(CENTER)
-            }
+           let money = 1000 ;
+           const statusText = document.getElementById("status");
+           const startBtn = document.getElementById("startButton");
 
-            function draw(){
-                background(130)
-                fill(0,255,0)
-                rect(100,100,300,300)
-                text()
-            }
+           startBtn.addEventListener("click", startGame);
 
-            function askQuestion(question,result){
-                let decision = prompt(question);
+        function startGame() {
+            money = 1000;
+            statusText.innerHTML = "Starting money: $" + money;
 
-                if (result === a){
-                    alert("risky choice");
-                    return a;
+            let choice1 = prompt("Type 'a' to start a business OR 'b' to get a job");
+
+            if (choice1 === "a") {
+                alert("Risky choice! You stared a business aka you'll be gambling with your future now.");
+                money -= 500;
+
+                let choice2 = prompt("Your business is struggling. Type 'a' to invest more OR 'b' to give up.");
+
+                if (choice2 === "a") {
+                    alert("Smart move! Your business succeeds.");
+                    money += 2000;
                 } else {
-                    alert("good choice");
-                    return b;
+                    alert("You quit too early and lost more money.");
+                    money -= 200;
                 }
 
-            }
-            function askQuestion(question,result){
+            } else if (choice1 === "b") {
+                alert("Smart move! You got a job.");
+                money += 500;
 
+                let choice2 = prompt("You have money now . Type 'a' to invest OR 'b' to keep saving");
+
+                if (choice2 === "a") {
+                    alert("I like your determination!");
+                    money += 1000;
+                } else {
+                    alert("Slow but steady wins the race,I respect that.");
+                    money += 200;
+                }
+
+            } else {
+                alert("Bad move,you broke now.");
+                return;
             }
-        askQuestion("Will you a=start a buisness or b=work for someone else?","risky choice","good choice");
+
+            endGame();
+        }
+
+        function endGame() {
+            statusText.innerHTML = "Final money: $" + money;
+
+            if (money >= 2000) {
+                alert("Well done your now Bezos rich.");
+            } else if (money > 0) {
+                alert("You ain't poor but you ain't rich.");
+            } else {
+                alert("You're broke now mate.");
+            }
+        }
 
         </script>
     </body>
