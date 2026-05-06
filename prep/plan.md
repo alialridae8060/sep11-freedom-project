@@ -52,7 +52,7 @@
   <ul>
     <li>Alvin F; Specifying what button to press after choosing a or b.</li>
     <li>Benson J; Include the button somewhere to improve performance.</li>
-    <li>Farzona K; Give the project and ending.</li>
+    <li>Farzona K; Give the project an ending.</li>
     <li>Darren L; Fix the typos found in the project.</li>
   </ul>
 
