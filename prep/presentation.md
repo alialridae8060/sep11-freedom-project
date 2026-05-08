@@ -1,16 +1,19 @@
 # Presentation Plan
 
 ## Hook
-* 
+* Hook:Who likes decision games that involve money?
 
 ## Product
-* 
+* Product:A demonstration of the game itself.
+
 
 ## Process
-* 
+*Process:I would show the MVP code,the glows and grows from the MVP feedback and the beyond MVP code along with when and how I used my tool(which will be explained).
+
 
 ## Conclusion
-* 
+*Conclusion:Summarize what I have created using my tool and what is its intended purpose of the game and end it off with thank you.
+
 
 <!-- EXAMPLE
 
