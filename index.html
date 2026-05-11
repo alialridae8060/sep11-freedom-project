@@ -19,7 +19,7 @@
     <h1>Business decision game</h1>
 
     <p id="intro">
-        Welcome to my business decsion game.In this game you either have the option to start a buisness now or get a job and start a business late and you are in charge of either keeping the buisness alive or making sure your money doesn't run out.How it's done is that you are given decisions to make and your choices affect the outcome of the business/survivability of your wealth.For every good descison you make more money and for every bad decision you make less money.Now that you know this good luck young entrepreneur and may luck be on your side. Press on this button to continue and begin your business empire.
+        Welcome to my business decsion game.In this game you start with a $1000 and you either have the option to start a buisness now or get a job and start a business late and you are in charge of either keeping the buisness alive or making sure your money doesn't run out.How it's done is that you are given decisions to make and your choices affect the outcome of the business/survivability of your wealth.For every good descison you make more money and for every bad decision you make less money.Now that you know this good luck young entrepreneur and may luck be on your side. Press on this button to continue and begin your business empire.
     </p>
 
     <button id="startButton" class="btn btn-primary">Click To Play!</button>
@@ -40,38 +40,38 @@
             money = 1000;
             statusText.innerHTML = "Starting money: $" + money;
 
-            let choice1 = prompt("Type 'a' to start a business OR 'b' to get a job");
+            let choice1 = prompt("Type 'a' to start a business OR 'b' to get a job,current amount of money: 1000 .");
 
             if (choice1 === "a") {
-                alert("Risky choice! You started a business, you're gambling with your future now.");
+                alert("Risky choice! You started a business, you're gambling with your future now,current amount of money:500 .");
                 money -= 500;
 
-                let choice2 = prompt("Your business is struggling. Type 'a' to invest more OR 'b' to give up.");
+                let choice2 = prompt("Your business is struggling. Type 'a' to invest more OR 'b' to give up .");
 
                 if (choice2 === "a") {
-                    alert("Smart move! Your business succeeds.");
+                    alert("Smart move! Your business succeeds,current amount of money:2500 .");
                     money += 2000;
                 } else {
-                    alert("You quit too early and lost more money.");
+                    alert("You quit too early and lost more money,current amount of money:300 .");
                     money -= 200;
                 }
 
             } else if (choice1 === "b") {
-                alert("Smart move! You got a job.");
+                alert("Smart move! You got a job,,current amount of money:1500 .");
                 money += 500;
 
-                let choice2 = prompt("You have money now. Type 'a' to invest OR 'b' to keep saving");
+                let choice2 = prompt("You have money now. Type 'a' to invest OR 'b' to keep saving .");
 
                 if (choice2 === "a") {
-                    alert("I like your determination!");
+                    alert("I like your determination,current amount of money:2500 .");
                     money += 1000;
                 } else {
-                    alert("Slow but steady wins the race.");
+                    alert("Slow but steady wins the race,current amount of money:1700 .");
                     money += 200;
                 }
 
             } else {
-                alert("Bad move, you're broke now.");
+                alert("Bad move, you're broke now .");
                 return;
             }
 
@@ -82,11 +82,11 @@
             statusText.innerHTML = "Final money: $" + money;
 
             if (money >= 2000) {
-                alert("Well done, you're now Bezos rich.");
+                alert("Well done, you're now Bezos rich .");
             } else if (money > 0) {
-                alert("You're not poor, but you're not rich.");
+                alert("You're not poor, but you're not rich .");
             } else {
-                alert("You're broke now mate.");
+                alert("You're broke now mate .");
             }
         }
     </script>
