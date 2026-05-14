@@ -7,46 +7,50 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- LESS stylesheet -->
+    <!-- LESS stylesheet. -->
     <link rel="stylesheet/less" type="text/css" href="style.less" />
     <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
-
+    <!-- The Game Title. -->
     <title>Business decision game</title>
 </head>
 
 <body>
-
-    <h1>Business decision game</h1>
-
+    <!-- The Game Title. -->
+   <h1>Business decision game</h1>
+    <!-- Gameplay Instructions. -->
     <p id="intro">
         Welcome to my business decsion game.In this game you start with a $1000 and you either have the option to start a buisness now or get a job and start a business late and you are in charge of either keeping the buisness alive or making sure your money doesn't run out.How it's done is that you are given decisions to make and your choices affect the outcome of the business/survivability of your wealth.For every good descison you make more money and for every bad decision you make less money.Now that you know this good luck young entrepreneur and may luck be on your side. Press on this button to continue and begin your business empire.
     </p>
 
+    <!-- Starter Button. -->
+
     <button id="startButton" class="btn btn-primary">Click To Play!</button>
+
+    <!-- Identification for the Starter button. -->
 
     <h3 id="status" class="mt-4"></h3>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        let money = 1000;
+        let money = 1000; // The amount of money someone starts with.
 
-        const statusText = document.getElementById("status");
-        const startBtn = document.getElementById("startButton");
+        const statusText = document.getElementById("status"); // Code for the text in the game.
+        const startBtn = document.getElementById("startButton"); // Additional code for the starter button.
 
-        startBtn.addEventListener("click", startGame);
+        startBtn.addEventListener("click", startGame); // Code for the game to start when the button is clicked.
 
-        function startGame() {
-            money = 1000;
-            statusText.innerHTML = "Starting money: $" + money;
+        function startGame() { // The function responsible for starting the game.
+            money = 1000; // Starting amount of cash.
+            statusText.innerHTML = "Starting money: $" + money; // The text that is shown to the user after they start the game along with starting of with a thousand's dollar's worth of cash.
 
-            let choice1 = prompt("Type 'a' to start a business OR 'b' to get a job,current amount of money: 1000 .");
+            let choice1 = prompt("Type 'a' to start a business OR 'b' to get a job,current amount of money: 1000 ."); // The first two choices the user is presented with.
 
             if (choice1 === "a") {
-                alert("Risky choice! You started a business, you're gambling with your future now,current amount of money:500 .");
-                money -= 500;
+                alert("Risky choice! You started a buisness, you're gambling now,current amount of money:500 ."); // Choice A is the choice that starts a buisness but results in the lose of five hundred dollars.
+                money -= 500; // Code to take away five hundred dollars.
 
-                let choice2 = prompt("Your business is struggling. Type 'a' to invest more OR 'b' to give up .");
+                let choice2 = prompt("Your business is struggling. Type 'a' to invest more OR 'b' to give up ."); // The first pair of choices after choice A for those who decide
 
                 if (choice2 === "a") {
                     alert("Smart move! Your business succeeds,current amount of money:2500 .");
@@ -63,8 +67,8 @@
                 let choice2 = prompt("You have money now. Type 'a' to invest OR 'b' to keep saving .");
 
                 if (choice2 === "a") {
-                    alert("I like your determination,current amount of money:2500 .");
-                    money += 1000;
+                    alert("I like your determination,current amount of money:3500 .");
+                    money += 2000;
                 } else {
                     alert("Slow but steady wins the race,current amount of money:1700 .");
                     money += 200;
@@ -81,9 +85,11 @@
         function endGame() {
             statusText.innerHTML = "Final money: $" + money;
 
-            if (money >= 2000) {
-                alert("Well done, you're now Bezos rich .");
-            } else if (money > 0) {
+            if (money >= 3000) {
+                alert("Well done, you're mega rich .");
+            } else if(money > 2000){
+                alert("You're rich now .")
+            } else if (money > 1000) {
                 alert("You're not poor, but you're not rich .");
             } else {
                 alert("You're broke now mate .");
