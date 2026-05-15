@@ -1,30 +1,30 @@
-@mainColor: green;
-@bgColor: white;
-@textColor: black;
+@mainColor: green; // The color of the game title.
+@bgColor: white; // The color of the background for the game.
+@textColor: black; // The color of the html and javascript text.
 
-body {
+body { // The code for how the body should appear in color and font.
   background-color: @bgColor;
   color: @textColor;
   font-family: "Times New Roman", Times, serif;
 }
 
-h1 {
+h1 { // The code for how the title of the game should appear.
   color: @mainColor;
 }
 
-button {
+button { // The code for how the button of the game should look like.
   background-color: @mainColor;
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
 
-  &:hover {
+  &:hover { // The code for how the question background should appear.
     background-color: darken(@mainColor, 10%);
   }
 }
 
-#status {
+#status { // The code for how the status should appear.
   margin-top: 20px;
   font-weight: bold;
 }
