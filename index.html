@@ -50,28 +50,28 @@
                 alert("Risky choice! You started a buisness, you're gambling now,current amount of money:500 ."); // Choice A is the choice that starts a buisness but results in the lose of five hundred dollars.
                 money -= 500; // Code to take away five hundred dollars.
 
-                let choice2 = prompt("Your business is struggling. Type 'a' to invest more OR 'b' to give up ."); // The first pair of choices after choice A for those who decide
+                let choice2 = prompt("Your business is struggling. Type 'a' to invest more OR 'b' to give up ."); // The first pair of choices after choice A for those who decide what to do when their business is struggling.
 
                 if (choice2 === "a") {
                     alert("Smart move! Your business succeeds,current amount of money:2500 .");
-                    money += 2000;
+                    money += 2000; // The first chocie where when someone invests in their business they get money back.
                 } else {
-                    alert("You quit too early and lost more money,current amount of money:300 .");
-                    money -= 200;
+                    alert("You quit too early and lost even more money,current amount of money:300 .");
+                    money -= 200; // The second choice when someone quits on their buisness and loses even more money.
                 }
 
             } else if (choice1 === "b") {
                 alert("Smart move! You got a job,,current amount of money:1500 .");
-                money += 500;
+                money += 500; // What happens when someone chooses choice b,when they get a job they get more money.
 
-                let choice2 = prompt("You have money now. Type 'a' to invest OR 'b' to keep saving .");
+                let choice2 = prompt("You have money now. Type 'a' to invest OR 'b' to keep saving ."); //The first pair of choices after choice B.
 
                 if (choice2 === "a") {
                     alert("I like your determination,current amount of money:3500 .");
-                    money += 2000;
+                    money += 2000; // A choice where when someone decides to invest and they get more money.
                 } else {
                     alert("Slow but steady wins the race,current amount of money:1700 .");
-                    money += 200;
+                    money += 200; // Another choice
                 }
 
             } else {
@@ -82,7 +82,7 @@
             endGame();
         }
 
-        function endGame() {
+        function endGame() { // A function that ends the game and causes one of the alerts below to appear on screen depending on how much money the user has.
             statusText.innerHTML = "Final money: $" + money;
 
             if (money >= 3000) {
