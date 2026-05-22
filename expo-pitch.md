@@ -1,1 +1,3 @@
-
+# Expo pitch:
+### Hey you like money? Wanna know how to make the most off it?
+### Well step right up to hear about my project,Buisness Decision Game built by me Ali and built with less.js . In this game you start out with $1,000 dollars and your given the option of either getting a job which earns you money or starting a buisness ith that money and either bring the business up or running it to the ground . Now hear is a demo of my project ... . Now if you ask about my pject's purpose its purpose is to be a game for people with low expectations and to be a teacher to those who have moeny but don't know how to use it right . Any questions judges?
