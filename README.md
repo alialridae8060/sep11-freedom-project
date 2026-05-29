@@ -12,6 +12,10 @@ For my project, I chose to independently study **Less.js** in order to help me m
 
 [Presentation](https://docs.google.com/presentation/d/1kRaLB5-2ZXCk0hWpqxtfTtwyrCyrUZB7bijJCGw8YJU/edit?usp=sharing)
 
+[Expo Elevator Pitch](https://github.com/alialridae8060/sep11-freedom-project/blob/main/expo-pitch.md)
+
+[Tool Research]( )
+
 ## Implications
 ##### PROS
 *    
