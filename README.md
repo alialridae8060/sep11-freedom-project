@@ -14,7 +14,9 @@ For my project, I chose to independently study **Less.js** in order to help me m
 
 [Expo Elevator Pitch](https://github.com/alialridae8060/sep11-freedom-project/blob/main/expo-pitch.md)
 
-[Tool Research]( )
+[Tool Research]( https://github.com/alialridae8060/sep11-freedom-project/blob/main/tool/learning-log.md)
+
+[Tool Tinkering]( )
 
 ## Implications
 ##### PROS
