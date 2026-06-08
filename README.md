@@ -6,9 +6,11 @@ I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering P
 
 For my project, I chose to independently study **Less.js** in order to help me make **Buisness Decision Game**.
 
+Below are links,implicationbs and blogs to how I made the game,how I studied the tool, and anything else you can't find in context.
+
 ## Links
 
-[Product]()
+[Product](https://github.com/user-attachments/assets/4346c359-edda-42e2-9f74-31d7a1b3b659)
 
 [Presentation](https://docs.google.com/presentation/d/1kRaLB5-2ZXCk0hWpqxtfTtwyrCyrUZB7bijJCGw8YJU/edit?usp=sharing)
 
@@ -20,9 +22,9 @@ For my project, I chose to independently study **Less.js** in order to help me m
 
 ## Implications
 ##### PROS
-*    
+*    This game uses Less.js(an alterntaiv to less.js and therefore a needed change to the html page.) along with using basics,functions,conditionals,event maniuplators and dom to effectively function.
 ##### CONS
-* 
+* The code is not 100 percent mine,I could've used more of less.js and the beyond mvp for this game is equivalent to an ovderdone mvp.
 
 
 ## Blog
