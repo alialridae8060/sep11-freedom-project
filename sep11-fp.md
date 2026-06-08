@@ -4,4 +4,5 @@
 ### Challenges:For me the biggest challenges were procastination,not asking for help(stuborness), and not living up to my full potential.
 ### Takeaways: Do things in a timely manner,ask for help and try to live up to your full potential.
 ### So all in all this is my portfolio entry for my sep 11 freedom project.
+### [Github.com repo page](https://github.com/alialridae8060/sep11-freedom-project).
 
